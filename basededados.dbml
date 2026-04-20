@@ -1,0 +1,63 @@
+Table clanes_comuninidad {
+  id_clan int [PK] 
+  discord_clan varchar
+  nombre_clan varchar
+  descripcion_clan varchar
+  etiqueta_clan enum('competitivo','semicompetitivo','casual','español','gallego','catalan','torneos internacionales','clan wars','aleatorias','tempestad','Huracan(morado)', 'Tifon(verde)','Tempestad(oro)','Temporal(plata)','Borrasca(Bronce)')
+  contacto_clan varchar
+}
+
+Table guia {
+  id_guia int [PK]
+  nombre_guia varchar
+  id_barco FK
+  descripcion_guia text
+  mejor_capitan_nombre_guias varchar
+  imagen_capitan_guia image
+  imagen_modulos_guias image
+  imagen_banderas_guias image
+  id_comandante FK
+}
+
+Table comandante {
+  id_comandante int [PK]
+  nombre_comandante varchar
+}
+Table barcos {
+  id_barco int [PK]
+  nombre_barco varchar
+  tier_barco integer
+  nacion_barco varchar
+  tipo_barco enum('destrcutor','crucero','acorazado')
+}
+
+Table jugador {
+  id_jugador int [PK]
+  nombre_jugador varchar
+}
+
+
+Table partida {
+ id_partida int [PK]
+ nombre_oponente_partida varchar
+ dia_partida date
+ inicio_partida datetime
+ fin_partida datetaime
+ id_comandante FK
+}
+
+table jugador_partida {
+  id_partida FK
+  id_jugador FK
+  id_jugador_partida int [PK]
+  jugador_partida enum ('jugando','esperando')
+  valor_valoracion enum('bien','decente','mal')
+  id_barco FK
+  }
+
+Ref: guia.id_barco > barcos.id_barco
+Ref: guia.id_comandante > comandante.id_comandante
+Ref: partida.id_comandante > comandante.id_comandante
+Ref: jugador_partida.id_partida > partida.id_partida
+Ref: jugador_partida.id_jugador > jugador.id_jugador
+Ref: jugador_partida.id_barco > barcos.id_barco
