@@ -51,8 +51,9 @@ table jugador_partida {
   id_jugador FK
   id_jugador_partida int [PK]
   jugador_partida enum ('jugando','esperando')
-  valor_valoracion enum('bien','decente','mal')
+  valor_valoracion enum('bien','decente','mal','sin valorar')
   id_barco FK
+  comentario_partida varchar
   }
 
 Ref: guia.id_barco > barcos.id_barco
