@@ -1,2 +1,8 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Azor.Web/Azor.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Azor.Web.Tests/Azor.Web.Tests.csproj" />
+  </Folder>
 </Solution>
