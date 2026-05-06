@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Azor.Web\Azor.Web.csproj" />
+  </ItemGroup>
+
 </Project>
