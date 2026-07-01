@@ -1,0 +1,32 @@
+@model List<Azor.Web.Models.Entities.Season>
+
+<h1>Temporadas</h1>
+<p><a asp-action="Create" class="btn btn-primary">Crear nueva temporada</a></p>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Inicio</th>
+        <th>Fin</th>
+        <th>Días</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Name</td>
+            <td>@s.StartDate.ToShortDateString()</td>
+            <td>@s.EndDate.ToShortDateString()</td>
+            <td>@s.TotalDays</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-sm btn-warning">Editar</a>
+                <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-sm btn-danger">Eliminar</a>
+                <a asp-action="AttendanceStats" asp-route-id="@s.Id" class="btn btn-sm btn-info">Asistencia</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

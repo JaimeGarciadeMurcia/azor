@@ -1,7 +1,18 @@
+using Azor.Web.Data;
+using Azor.Web.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<ISeasonStorage, SeasonStorage>();
+builder.Services.AddScoped<IReplayImportService, ReplayImportService>();
+builder.Services.AddSingleton<IBattleReplayStorage, BattleReplayMemoryStorage>();
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 
 var app = builder.Build();
 

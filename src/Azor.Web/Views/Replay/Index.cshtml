@@ -1,0 +1,36 @@
+@model List<Azor.Web.Models.Entities.BattleReplay>
+
+<h1>Partidas importadas</h1>
+
+@if (!Model.Any())
+{
+    <p>No hay partidas importadas. <a asp-action="Upload">Sube una aquí</a>.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <th>ID</th>
+        <th>Mapa</th>
+        <th>Modo</th>
+        <th>Fecha</th>
+        <th>Vehículos</th>
+        <th>Acciones</th>
+        </thead>
+        <tbody>
+        @foreach (var replay in Model)
+        {
+            <tr>
+                <td>@replay.Id</td>
+                <td>@replay.Metadata?.Map</td>
+                <td>@replay.Metadata?.GameMode</td>
+                <td>@replay.Metadata?.Timestamp.ToLocalTime()</td>
+                <td>@replay.Vehicles.Count</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@replay.Id" class="btn btn-sm btn-info">Ver</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

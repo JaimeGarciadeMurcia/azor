@@ -1,0 +1,55 @@
+@model List<Azor.Web.Models.Entities.PlayerAttendance>
+
+@{
+    var season = ViewBag.Season as Azor.Web.Models.Entities.Season;
+    var targetClan = ViewBag.TargetClan as string ?? "AZOR";
+    ViewData["Title"] = $"Asistencia - {season?.Name} (Clan {targetClan})";
+}
+
+<style>
+    .table tbody tr.passes {
+        background-color: #d4edda !important; /* verde suave */
+    }
+
+    .table tbody tr.fails {
+        background-color: #f8d7da !important; /* rojo suave */
+    }
+
+    .table tbody tr.passes td, .table tbody tr.fails td {
+        background-color: inherit !important;
+    }
+</style>
+
+<h1>Estadísticas de asistencia</h1>
+<h3>Temporada: @season?.Name (del @season?.StartDate.ToShortDateString() al @season?.EndDate.ToShortDateString())</h3>
+<p><strong>Clan: </strong> @targetClan</p>
+<p>Días de clan en la temporada: @ViewBag.ClanBattleDays (miércoles, jueves, sábado, domingo)</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No hay jugadores del clan @targetClan con partidas en esta temporada.</div>
+}
+else
+{
+    int cumplen = Model.Count(p => p.MeetsRequirement);
+    <p><strong>Resumen: @cumplen</strong> de <strong>@Model.Count</strong> jugadores cumplen el requisito de al menos @ViewBag.ClanBattleDays partidas.</p>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+        <th>Jugador</th>
+        <th>Partidas jugadas</th>
+        </thead>
+        <tbody>
+        @foreach (var p in Model)
+        {
+            string rowClass = p.MeetsRequirement ? "passes" : "fails";
+            <tr class="@rowClass">
+                <td>@p.PlayerName</td>
+                <td>@p.MatchesPlayed / @p.RequiredMatches</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+<a asp-action="Index" class="btn btn-secondary">Volver a temporadas</a>

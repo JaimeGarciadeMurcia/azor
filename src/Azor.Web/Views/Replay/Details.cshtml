@@ -1,0 +1,225 @@
+@model Azor.Web.Models.Entities.BattleReplay
+
+@{
+    ViewData["Title"] = $"Partida {Model.Id} - {Model.Metadata?.Map}";
+    string resultado = (Model.Metadata?.BattleResult?.Type == "Win") ? "VICTORIA" : "DERROTA";
+}
+
+<style>
+    /* Colores suaves para las filas */
+    .table tbody tr.ally-row {
+        background-color: #d4edda !important; /* verde suave */
+    }
+
+    .table tbody tr.enemy-row {
+        background-color: #f8d7da !important; /* rojo suave */
+    }
+
+    .table tbody tr.ally-row td, .table tbody tr.enemy-row td {
+        background-color: inherit !important;
+    }
+
+    /* Encabezados clickeables */
+    .sortable {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .sortable:hover {
+        background-color: #e9ecef;
+    }
+
+    .sort-indicator {
+        margin-left: 6px;
+        font-size: 0.8em;
+        display: inline-block;
+    }
+
+    /* Tarjetas de metadatos */
+    .metadata-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 1.5rem 0 2rem 0;
+        background: #f8f9fa;
+        padding: 1rem 1.5rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .metadata-column {
+        flex: 1;
+        min-width: 150px;
+    }
+
+    .metadata-column p {
+        margin: 0.25rem 0;
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+        color: #6c757d;
+    }
+
+    .metadata-column p:last-child {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #212529;
+    }
+
+    hr {
+        margin: 0.5rem 0 1rem 0;
+    }
+</style>
+
+<section>
+    <h1>@Model.Metadata?.Map - @resultado</h1>
+
+    <div class="metadata-row">
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>Mapa</strong></p>
+            <p>@(Model.Metadata?.Map ?? "Desconocido")</p>
+        </div>
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>Spawn</strong></p>
+            <p>@(Model.Spawn ?? "-")</p>
+        </div>
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>División</strong></p>
+            <p>@(Model.Division ?? "-")</p>
+        </div>
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>Fecha de la partida</strong></p>
+            <p>@(Model.Metadata?.Timestamp.ToString("dd/MM/yyyy HH:mm:ss") ?? "-")</p>
+        </div>
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>Duración de la partida</strong></p>
+            <p>@TimeSpan.FromSeconds(Model.Metadata?.PlayedDuration ?? 0).ToString(@"mm\:ss")</p>
+        </div>
+        <div class="metadata-column">
+            <p class="text-uppercase"><strong>Versión</strong></p>
+            <p>@(Model.Metadata?.Version != null ? $"{Model.Metadata.Version.Major}.{Model.Metadata.Version.Minor}.{Model.Metadata.Version.Patch}" : "-")</p>
+        </div>
+    </div>
+
+    <h3 class="mt-4">Vehículos</h3>
+    <div class="table-responsive">
+        <table id="vehiclesTable" class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th class="sortable" data-sort="name">Barco <span class="sort-indicator"></span></th>
+                <th class="sortable" data-sort="player">Jugador <span class="sort-indicator"></span></th>
+                <th class="sortable" data-sort="clan">Clan <span class="sort-indicator"></span></th>
+                <th>Detalles</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var v in Model.Vehicles)
+            {
+                string rowClass = v.IsEnemy ? "enemy-row" : "ally-row";
+                <tr class="@rowClass"
+                    data-team="@(v.IsEnemy ? "enemy" : "ally")"
+                    data-name="@v.Name"
+                    data-player="@v.PlayerBattle?.Name"
+                    data-clan="@v.PlayerBattle?.Clan">
+                    <td>@v.Name</td>
+                    <td>@v.PlayerBattle?.Name</td>
+                    <td>@v.PlayerBattle?.Clan</td>
+                    <td>
+                        <a asp-action="VehicleDetails" asp-route-vehicleId="@v.Id" class="btn btn-sm btn-secondary">Ver
+                            más</a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary mt-3">← Volver al listado</a>
+</section>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const table = document.getElementById('vehiclesTable');
+        const tbody = table.querySelector('tbody');
+        const headers = table.querySelectorAll('.sortable');
+        let currentSort = {column: null, ascending: true};
+
+        // Función para ordenar manteniendo aliados y enemigos separados
+        function sortTable(column, ascending) {
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            const allyRows = rows.filter(row => row.classList.contains('ally-row'));
+            const enemyRows = rows.filter(row => row.classList.contains('enemy-row'));
+
+            // Obtener comparador según columna
+            function getCompare(col, asc) {
+                return (a, b) => {
+                    let aVal, bVal;
+                    switch (col) {
+                        case 'name':
+                            aVal = a.getAttribute('data-name') || '';
+                            bVal = b.getAttribute('data-name') || '';
+                            break;
+                        case 'player':
+                            aVal = a.getAttribute('data-player') || '';
+                            bVal = b.getAttribute('data-player') || '';
+                            break;
+                        case 'clan':
+                            aVal = a.getAttribute('data-clan') || '';
+                            bVal = b.getAttribute('data-clan') || '';
+                            break;
+                        default:
+                            return 0;
+                    }
+                    if (aVal < bVal) return asc ? -1 : 1;
+                    if (aVal > bVal) return asc ? 1 : -1;
+                    // Si igual, mantener orden original? No es crítico
+                    return 0;
+                };
+            }
+
+            const compareFn = getCompare(column, ascending);
+            allyRows.sort(compareFn);
+            enemyRows.sort(compareFn);
+
+            // Reconstruir tbody: todos aliados primero, luego enemigos
+            const newRows = [...allyRows, ...enemyRows];
+            tbody.innerHTML = '';
+            newRows.forEach(row => tbody.appendChild(row));
+        }
+
+        // Manejar clic en encabezados
+        headers.forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.getAttribute('data-sort');
+                if (currentSort.column === column) {
+                    currentSort.ascending = !currentSort.ascending;
+                } else {
+                    currentSort.column = column;
+                    currentSort.ascending = true;
+                }
+
+                // Actualizar indicadores visuales
+                headers.forEach(h => {
+                    const indicator = h.querySelector('.sort-indicator');
+                    if (indicator) indicator.innerHTML = '';
+                });
+                const activeIndicator = header.querySelector('.sort-indicator');
+                if (activeIndicator) {
+                    activeIndicator.innerHTML = currentSort.ascending ? '▲' : '▼';
+                }
+
+                sortTable(currentSort.column, currentSort.ascending);
+            });
+        });
+
+        // Opcional: orden inicial por daño descendente (más daño arriba)
+        const damageHeader = document.querySelector('.sortable[data-sort="damage"]');
+        if (damageHeader) {
+            // Simulamos dos clics para orden descendente
+            damageHeader.click(); // ascendente
+            damageHeader.click(); // descendente
+        }
+    });
+</script>

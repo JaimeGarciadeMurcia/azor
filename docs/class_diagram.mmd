@@ -1,0 +1,100 @@
+classDiagram
+    namespace Models.Entities {
+    class BattleReplay {
+        +List~Vehicle~ Vehicles
+        +Metadata Metadata
+    }
+
+    class Vehicle {
+        +Player Player
+        +string Index
+        +string Name
+        +string Nation
+        +string Class
+        +int Tier
+        +bool IsTestShip
+        +bool IsEnemy
+        +string CaptainId
+        +ServerResults ServerResults
+        +ObservedResults ObservedResults
+        +double? TimeLivedSecs
+        +string Relation
+        +string DivisionLabel
+        +List~string~ Achievements
+        +List~Ribbon~ Ribbons
+        +double PersonalRating
+        +string PersonalRatingCategory
+    }
+
+    class Player {
+        +long DbId
+        +string Realm
+        +string Name
+        +string Clan
+        +long DivisionId
+        +int TeamId
+        +bool IsReplayPerspective
+    }
+
+    class ServerResults {
+        +int Xp
+        +int RawXp
+        +int Damage
+        +int SpottingDamage
+        +int PotentialDamage
+        +int ReceivedDamage
+        +int FiresDealt
+        +int FloodsDealt
+        +int CitadelsDealt
+        +int CritsDealt
+        +double DistanceTraveled
+        +int Kills
+    }
+
+    class ObservedResults {
+        +int Damage
+        +int Kills
+    }
+
+    class Metadata {
+        +string Map
+        +string GameMode
+        +string GameType
+        +string MatchGroup
+        +Version Version
+        +double PlayedDuration
+        +double ExtraDuration
+        +DateTime Timestamp
+        +BattleResult BattleResult
+    }
+
+    class VersionInfo {
+        +int Major
+        +int Minor
+        +int Patch
+        +int Build
+    }
+
+    class BattleResult {
+        +string Type
+        +int TeamId
+    }
+
+    class Ribbon {
+        +string Name
+        +string DisplayName
+        +int Count
+    }
+    }
+
+    %% Relaciones
+    BattleReplay *-- "1" Metadata
+    BattleReplay *-- "0..*" Vehicle
+
+    Vehicle *-- "1" Player
+    Vehicle *-- "1" ServerResults
+    Vehicle *-- "0..1" ObservedResults
+    Vehicle *-- "0..*" Ribbon
+
+    Metadata *-- "1" BattleResult
+    Metadata *-- "1" VersionInfo

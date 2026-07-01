@@ -1,0 +1,3372 @@
+{
+    "vehicles": [
+        {
+            "player": {
+                "db_id": 544865726,
+                "realm": "EU",
+                "name": "Backtotheport",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PRSC208",
+            "name": "Tallinn",
+            "nation": "Russia",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 4076778960,
+                "abilities": [
+                    4284653488,
+                    4277313456,
+                    4273119152,
+                    0,
+                    0,
+                    0
+                ],
+                "hull": 3542887888,
+                "modernization": [
+                    4262645680,
+                    4273131440,
+                    4259499952,
+                    4267888560,
+                    4265791408
+                ],
+                "units": [
+                    3542887888,
+                    3554651600,
+                    3555077584,
+                    3542527440,
+                    3548229072,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4263342000,
+                    4275924912,
+                    4280119216,
+                    4289556400,
+                    4276973488,
+                    4274876336,
+                    4286410672,
+                    4292800432
+                ],
+                "ensigns": [
+                    3934121904,
+                    4012765104
+                ],
+                "ecoboosts": [
+                    4281331632,
+                    0,
+                    4260360112,
+                    4249874352
+                ],
+                "naval_flag": 28,
+                "last_boarded_crew": 62
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Damage Control System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM020_DamageControl_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Steering Gears Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM025_SteeringGear_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Hydroacoustic Search",
+                        "game_params_name": "PCY016_SonarSearchPremium"
+                    },
+                    {
+                        "name": "Surveillance Radar",
+                        "game_params_name": "PCY020_RLSSearchPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Grease the Gears",
+                        "description": null,
+                        "internal_name": "GmTurn"
+                    },
+                    {
+                        "tier": 1,
+                        "name": "Last Stand",
+                        "description": "The ship remains partially able to sustain speed and maneuverability with the engine and steering gears incapacitated.",
+                        "internal_name": "Maneuverability"
+                    },
+                    {
+                        "tier": 1,
+                        "name": "Gun Feeder",
+                        "description": null,
+                        "internal_name": "GmShellReload"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Consumable Enhancements",
+                        "description": null,
+                        "internal_name": "ConsumablesDuration"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Demolition Expert",
+                        "description": null,
+                        "internal_name": "HeFireProbability"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Survivability Expert",
+                        "description": null,
+                        "internal_name": "DefenseHp"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Outnumbered",
+                        "description": null,
+                        "internal_name": "TriggerSpeedAccuracy"
+                    }
+                ]
+            },
+            "captain_id": "PRW407",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 84149,
+                "damage_details": {
+                    "ap": 62973,
+                    "sap": null,
+                    "he": 4143,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": 17033,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "563181754": {
+                        "damage_dealt": 36120,
+                        "damage_dealt_percentage": 42.92386124612295,
+                        "damage_dealt_inverse_percentage": 82.73208273208273,
+                        "damage_received": 24388,
+                        "damage_received_percentage": 50.342663694162326,
+                        "damage_received_inverse_percentage": 97.4662297178483
+                    },
+                    "535769485": {
+                        "damage_dealt": 4143,
+                        "damage_dealt_percentage": 4.923409666187358,
+                        "damage_dealt_inverse_percentage": 16.704971573726866,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "501626561": {
+                        "damage_dealt": 43886,
+                        "damage_dealt_percentage": 52.1527290876897,
+                        "damage_dealt_inverse_percentage": 64.64947041232709,
+                        "damage_received": 24056,
+                        "damage_received_percentage": 49.65733630583767,
+                        "damage_received_inverse_percentage": 76.86605316973414
+                    },
+                    "501028285": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    }
+                },
+                "hits_details": {
+                    "ap": 40,
+                    "sap": null,
+                    "he": 7,
+                    "he_secondaries": 8,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": 2
+                },
+                "spotting_damage": 3410,
+                "potential_damage": 541700,
+                "potential_damage_details": {
+                    "artillery": 541700,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 48444,
+                "received_damage_details": {
+                    "ap": 17712,
+                    "sap": null,
+                    "he": 18779,
+                    "he_secondaries": 314,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 11639,
+                    "flooding": null
+                },
+                "fires_dealt": 0,
+                "floods_dealt": 1,
+                "citadels_dealt": 7,
+                "crits_dealt": 0,
+                "distance_traveled": 31.7848526653438,
+                "kills": 2
+            },
+            "observed_results": {
+                "damage": 73562,
+                "kills": 2
+            },
+            "skill_meta_info": {
+                "skill_points": 21,
+                "num_skills": 9,
+                "highest_tier": 4,
+                "num_tier_1_skills": 3
+            },
+            "time_lived_secs": null,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 39
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 47
+                },
+                {
+                    "name": "RIBBON_SECONDARY_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 8
+                },
+                {
+                    "name": "RIBBON_TORPEDO",
+                    "display_name": "Target hits",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 5
+                },
+                {
+                    "name": "RIBBON_FRAG",
+                    "display_name": "Destroyed",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_PLANE",
+                    "display_name": "Aircraft shot down",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_CITADEL",
+                    "display_name": "Citadel hits",
+                    "count": 7
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_FLOOD",
+                    "display_name": "Caused flooding",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 3642.192431770999,
+            "personal_rating_category": "Super Unicum"
+        },
+        {
+            "player": {
+                "db_id": 538386674,
+                "realm": "EU",
+                "name": "are150",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": true
+            },
+            "index": "PRSB108",
+            "name": "Vladivostok",
+            "nation": "Russia",
+            "class": "Battleship",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 4181669328,
+                "abilities": [
+                    4284653488,
+                    4283604912,
+                    4281507760,
+                    0,
+                    0,
+                    0
+                ],
+                "hull": 3551276496,
+                "modernization": [
+                    4262645680,
+                    4273131440,
+                    4259499952,
+                    4269985712,
+                    4265791408
+                ],
+                "units": [
+                    3551276496,
+                    3557797328,
+                    0,
+                    3555110352,
+                    3555569104,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4263342000,
+                    4289556400,
+                    4287459248,
+                    4280119216,
+                    4288507824,
+                    4286410672,
+                    4278022064,
+                    4285362096
+                ],
+                "ensigns": [],
+                "ecoboosts": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "naval_flag": 0,
+                "last_boarded_crew": 62
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Damage Control System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM020_DamageControl_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Damage Control System Modification 2",
+                        "description": null,
+                        "game_params_name": "PCM023_DamageControl_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Repair Party",
+                        "game_params_name": "PCY010_RegenCrewPremium"
+                    },
+                    {
+                        "name": "Fighters",
+                        "game_params_name": "PCY012_FighterPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Emergency Repair Specialist",
+                        "description": null,
+                        "internal_name": "ConsumablesCrashcrewRegencrewReload"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Vigilance",
+                        "description": "Extends the torpedo acquisition range, even while the Hydroacoustic Search consumable is active.",
+                        "internal_name": "DetectionTorpedoRange"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Super-Heavy AP Shells",
+                        "description": null,
+                        "internal_name": "ApDamageBb"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Improved Repair Party Readiness",
+                        "description": "Activates every time your ship receives potential damage equal to 100% of the ship's base HP.",
+                        "internal_name": "DefenceUw"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Emergency Repair Expert",
+                        "description": null,
+                        "internal_name": "ConsumablesCrashcrewRegencrewUpgrade"
+                    }
+                ]
+            },
+            "captain_id": "PRW001",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 66373,
+                "damage_details": {
+                    "ap": 66373,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "500914775": {
+                        "damage_dealt": 38491,
+                        "damage_dealt_percentage": 57.99195455983608,
+                        "damage_dealt_inverse_percentage": 96.01626421871882,
+                        "damage_received": 34388,
+                        "damage_received_percentage": 44.74050558800952,
+                        "damage_received_inverse_percentage": 61.777809715435474
+                    },
+                    "501028285": {
+                        "damage_dealt": 22643,
+                        "damage_dealt_percentage": 34.11477558645835,
+                        "damage_dealt_inverse_percentage": 20.91461612354984,
+                        "damage_received": 15123,
+                        "damage_received_percentage": 19.675778353130976,
+                        "damage_received_inverse_percentage": 31.6215368531103
+                    },
+                    "510617052": {
+                        "damage_dealt": 5239,
+                        "damage_dealt_percentage": 7.893269853705573,
+                        "damage_dealt_inverse_percentage": 11.087830687830689,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "505699706": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 27350,
+                        "damage_received_percentage": 35.5837160588595,
+                        "damage_received_inverse_percentage": 100.0
+                    },
+                    "563181754": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    }
+                },
+                "hits_details": {
+                    "ap": 25,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 29591,
+                "potential_damage": 800265,
+                "potential_damage_details": {
+                    "artillery": 717100,
+                    "torpedoes": 83165,
+                    "planes": 0
+                },
+                "received_damage": 76861,
+                "received_damage_details": {
+                    "ap": 9233,
+                    "sap": null,
+                    "he": 13100,
+                    "he_secondaries": 2759,
+                    "sap_secondaries": null,
+                    "torps": 15523,
+                    "deep_water_torps": null,
+                    "fire": 24419,
+                    "flooding": 11827
+                },
+                "fires_dealt": 0,
+                "floods_dealt": 0,
+                "citadels_dealt": 1,
+                "crits_dealt": 1,
+                "distance_traveled": 29.047631624937065,
+                "kills": 2
+            },
+            "observed_results": {
+                "damage": 66373,
+                "kills": 2
+            },
+            "skill_meta_info": {
+                "skill_points": 20,
+                "num_skills": 7,
+                "highest_tier": 4,
+                "num_tier_1_skills": 1
+            },
+            "time_lived_secs": null,
+            "relation": "self",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 15
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 25
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_FRAG",
+                    "display_name": "Destroyed",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 7
+                },
+                {
+                    "name": "RIBBON_CITADEL",
+                    "display_name": "Citadel hits",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 2029.0783212979206,
+            "personal_rating_category": "Great"
+        },
+        {
+            "player": {
+                "db_id": 508533626,
+                "realm": "EU",
+                "name": "danimollinato2",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PFSC508",
+            "name": "Bayard",
+            "nation": "France",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 3762206544,
+                "abilities": [
+                    4284653488,
+                    4277313456,
+                    4278362032,
+                    4271022000,
+                    0,
+                    0
+                ],
+                "hull": 3555471184,
+                "modernization": [
+                    4262645680,
+                    4273131440,
+                    4259499952,
+                    4268937136,
+                    4265791408
+                ],
+                "units": [
+                    3555471184,
+                    3556749136,
+                    3557175120,
+                    3555110736,
+                    3557666640,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4182273968,
+                    4264390576,
+                    4289556400,
+                    4280119216,
+                    4285362096,
+                    4288507824,
+                    4286410672,
+                    4274876336
+                ],
+                "ensigns": [
+                    4075679664
+                ],
+                "ecoboosts": [
+                    4282380208,
+                    0,
+                    4261408688,
+                    4250922928
+                ],
+                "naval_flag": 26,
+                "last_boarded_crew": 15
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Damage Control System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM020_DamageControl_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Propulsion Modification 1",
+                        "description": "Reduces time to full speed",
+                        "game_params_name": "PCM024_Engine_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Hydroacoustic Search",
+                        "game_params_name": "PCY016_SonarSearchPremium"
+                    },
+                    {
+                        "name": "Engine Boost",
+                        "game_params_name": "PCY015_SpeedBoosterPremium"
+                    },
+                    {
+                        "name": "Main Battery Reload Booster",
+                        "game_params_name": "PCY022_ArtilleryBoosterPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Last Stand",
+                        "description": "The ship remains partially able to sustain speed and maneuverability with the engine and steering gears incapacitated.",
+                        "internal_name": "Maneuverability"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Demolition Expert",
+                        "description": null,
+                        "internal_name": "HeFireProbability"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Superintendent",
+                        "description": null,
+                        "internal_name": "ConsumablesAdditional"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Survivability Expert",
+                        "description": null,
+                        "internal_name": "DefenseHp"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Heavy HE and SAP Shells",
+                        "description": null,
+                        "internal_name": "HeSapDamage"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    }
+                ]
+            },
+            "captain_id": "PFW401",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 83821,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 57557,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 26264,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "501028285": {
+                        "damage_dealt": 41698,
+                        "damage_dealt_percentage": 49.74648357810095,
+                        "damage_dealt_inverse_percentage": 38.515111209635705,
+                        "damage_received": 13730,
+                        "damage_received_percentage": 42.332120614170314,
+                        "damage_received_inverse_percentage": 28.708834291688447
+                    },
+                    "510617052": {
+                        "damage_dealt": 40526,
+                        "damage_dealt_percentage": 48.348265947674214,
+                        "damage_dealt_inverse_percentage": 85.76931216931217,
+                        "damage_received": 11835,
+                        "damage_received_percentage": 36.489486341493496,
+                        "damage_received_inverse_percentage": 29.51592388457989
+                    },
+                    "500914775": {
+                        "damage_dealt": 1597,
+                        "damage_dealt_percentage": 1.9052504742248362,
+                        "damage_dealt_inverse_percentage": 3.9837357812811813,
+                        "damage_received": 6869,
+                        "damage_received_percentage": 21.17839304433619,
+                        "damage_received_inverse_percentage": 12.3401121011785
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 170,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 2992,
+                "potential_damage": 594900,
+                "potential_damage_details": {
+                    "artillery": 594900,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 32434,
+                "received_damage_details": {
+                    "ap": 24368,
+                    "sap": null,
+                    "he": 6754,
+                    "he_secondaries": 1197,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 115,
+                    "flooding": null
+                },
+                "fires_dealt": 5,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 30.688668014996257,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 76711,
+                "kills": 0
+            },
+            "skill_meta_info": {
+                "skill_points": 19,
+                "num_skills": 7,
+                "highest_tier": 4,
+                "num_tier_1_skills": 1
+            },
+            "time_lived_secs": null,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 5
+                },
+                {
+                    "name": "RIBBON_BASE_DEFENSE",
+                    "display_name": "Defended",
+                    "count": 9
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 92
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 72
+                },
+                {
+                    "name": "RIBBON_ASSIST",
+                    "display_name": "Assisted in destruction",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 170
+                }
+            ],
+            "personal_rating": 1792.5639825464202,
+            "personal_rating_category": "Great"
+        },
+        {
+            "player": {
+                "db_id": 579190179,
+                "realm": "EU",
+                "name": "_Epsilon115",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PASC708",
+            "name": "Bridgeport",
+            "nation": "USA",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 3552491504,
+                "abilities": [
+                    4284653488,
+                    4223836080,
+                    4283604912,
+                    4277313456,
+                    0,
+                    0
+                ],
+                "hull": 3511431152,
+                "modernization": [
+                    4262645680,
+                    4273131440,
+                    4259499952,
+                    4268937136,
+                    4265791408
+                ],
+                "units": [
+                    3511431152,
+                    3541020656,
+                    0,
+                    3536236528,
+                    3533549552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4182273968,
+                    4263342000,
+                    4276973488,
+                    4275924912,
+                    4280119216,
+                    4289556400,
+                    4287459248,
+                    4264390576,
+                    4288507824
+                ],
+                "ensigns": [
+                    3571314608,
+                    3505254320
+                ],
+                "ecoboosts": [
+                    4281331632,
+                    0,
+                    0,
+                    4249874352
+                ],
+                "naval_flag": 30,
+                "last_boarded_crew": 58
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Damage Control System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM020_DamageControl_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Propulsion Modification 1",
+                        "description": "Reduces time to full speed",
+                        "game_params_name": "PCM024_Engine_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Main Battery Reload Booster",
+                        "game_params_name": "PCY067_ArtilleryBoosterPremium_TimeBased"
+                    },
+                    {
+                        "name": "Repair Party",
+                        "game_params_name": "PCY010_RegenCrewPremium"
+                    },
+                    {
+                        "name": "Hydroacoustic Search",
+                        "game_params_name": "PCY016_SonarSearchPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Grease the Gears",
+                        "description": null,
+                        "internal_name": "GmTurn"
+                    },
+                    {
+                        "tier": 1,
+                        "name": "Gun Feeder",
+                        "description": null,
+                        "internal_name": "GmShellReload"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Consumable Enhancements",
+                        "description": null,
+                        "internal_name": "ConsumablesDuration"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Superintendent",
+                        "description": null,
+                        "internal_name": "ConsumablesAdditional"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Survivability Expert",
+                        "description": null,
+                        "internal_name": "DefenseHp"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Top Grade Gunner",
+                        "description": null,
+                        "internal_name": "TriggerGmAtbaReloadCa"
+                    }
+                ]
+            },
+            "captain_id": "PAW102",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 51826,
+                "damage_details": {
+                    "ap": 15536,
+                    "sap": null,
+                    "he": 32450,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 3840,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "501028285": {
+                        "damage_dealt": 4384,
+                        "damage_dealt_percentage": 8.459074595762745,
+                        "damage_dealt_inverse_percentage": 4.049360821695116,
+                        "damage_received": 6943,
+                        "damage_received_percentage": 12.458057454558505,
+                        "damage_received_inverse_percentage": 14.517511761630947
+                    },
+                    "535769485": {
+                        "damage_dealt": 17688,
+                        "damage_dealt_percentage": 34.12958746575078,
+                        "damage_dealt_inverse_percentage": 71.31970485061086,
+                        "damage_received": 41541,
+                        "damage_received_percentage": 74.53840770845669,
+                        "damage_received_inverse_percentage": 99.05572644681307
+                    },
+                    "563181754": {
+                        "damage_dealt": 5757,
+                        "damage_dealt_percentage": 11.108324007255046,
+                        "damage_dealt_inverse_percentage": 13.186284614856044,
+                        "damage_received": 634,
+                        "damage_received_percentage": 1.1376074357180026,
+                        "damage_received_inverse_percentage": 2.5337702821517065
+                    },
+                    "501626561": {
+                        "damage_dealt": 23997,
+                        "damage_dealt_percentage": 46.303013931231426,
+                        "damage_dealt_inverse_percentage": 35.35052958767291,
+                        "damage_received": 6613,
+                        "damage_received_percentage": 11.8659274012668,
+                        "damage_received_inverse_percentage": 21.13049591002045
+                    }
+                },
+                "hits_details": {
+                    "ap": 25,
+                    "sap": null,
+                    "he": 58,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 4147,
+                "potential_damage": 437818,
+                "potential_damage_details": {
+                    "artillery": 353950,
+                    "torpedoes": 83868,
+                    "planes": 0
+                },
+                "received_damage": 55731,
+                "received_damage_details": {
+                    "ap": 12929,
+                    "sap": null,
+                    "he": 15859,
+                    "he_secondaries": 627,
+                    "sap_secondaries": null,
+                    "torps": 17449,
+                    "deep_water_torps": null,
+                    "fire": 8747,
+                    "flooding": 120
+                },
+                "fires_dealt": 6,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 3,
+                "distance_traveled": 22.376186683175913,
+                "kills": 1
+            },
+            "observed_results": {
+                "damage": 47998,
+                "kills": 1
+            },
+            "skill_meta_info": {
+                "skill_points": 21,
+                "num_skills": 8,
+                "highest_tier": 4,
+                "num_tier_1_skills": 2
+            },
+            "time_lived_secs": null,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_FRAG",
+                    "display_name": "Destroyed",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 21
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_ASSIST",
+                    "display_name": "Assisted in destruction",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BASE_CAPTURE_ASSIST",
+                    "display_name": "Assisted in capture",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 83
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 51
+                }
+            ],
+            "personal_rating": 1699.1305186832533,
+            "personal_rating_category": "Very Good"
+        },
+        {
+            "player": {
+                "db_id": 559560115,
+                "realm": "EU",
+                "name": "Megaodin",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PASC208",
+            "name": "Cleveland",
+            "nation": "USA",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 4076779504,
+                "abilities": [
+                    4284653488,
+                    4282556336,
+                    4273119152,
+                    4277313456,
+                    0,
+                    0
+                ],
+                "hull": 3554422768,
+                "modernization": [
+                    4262645680,
+                    4221751216,
+                    4259499952,
+                    4267888560,
+                    4265791408
+                ],
+                "units": [
+                    3554422768,
+                    3556749296,
+                    0,
+                    3555110896,
+                    3556618224,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    3866554352,
+                    4275924912,
+                    4280119216,
+                    4286410672,
+                    4263342000,
+                    4276973488,
+                    4289556400,
+                    4264390576
+                ],
+                "ensigns": [],
+                "ecoboosts": [
+                    4282380208,
+                    0,
+                    4261408688,
+                    4250922928
+                ],
+                "naval_flag": 30,
+                "last_boarded_crew": 58
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Engine Room Protection",
+                        "description": null,
+                        "game_params_name": "PCM069_Movement_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Steering Gears Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM025_SteeringGear_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Defensive AA Fire",
+                        "game_params_name": "PCY011_AirDefenseDispPremium"
+                    },
+                    {
+                        "name": "Surveillance Radar",
+                        "game_params_name": "PCY020_RLSSearchPremium"
+                    },
+                    {
+                        "name": "Hydroacoustic Search",
+                        "game_params_name": "PCY016_SonarSearchPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Last Stand",
+                        "description": "The ship remains partially able to sustain speed and maneuverability with the engine and steering gears incapacitated.",
+                        "internal_name": "Maneuverability"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Consumable Enhancements",
+                        "description": null,
+                        "internal_name": "ConsumablesDuration"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Top Grade Gunner",
+                        "description": null,
+                        "internal_name": "TriggerGmAtbaReloadCa"
+                    }
+                ]
+            },
+            "captain_id": "PAW001",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 30287,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 21762,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 8525,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "500914775": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 10489,
+                        "damage_received_percentage": 27.067688575778693,
+                        "damage_received_inverse_percentage": 18.843417648749643
+                    },
+                    "510617052": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 28262,
+                        "damage_received_percentage": 72.93231142422131,
+                        "damage_received_inverse_percentage": 70.48407611542011
+                    },
+                    "505699706": {
+                        "damage_dealt": 9776,
+                        "damage_dealt_percentage": 32.27787499587282,
+                        "damage_dealt_inverse_percentage": 100.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "501028285": {
+                        "damage_dealt": 20511,
+                        "damage_dealt_percentage": 67.7221250041272,
+                        "damage_dealt_inverse_percentage": 18.94535579694081,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 67,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 0,
+                "potential_damage": 423583,
+                "potential_damage_details": {
+                    "artillery": 406950,
+                    "torpedoes": 16633,
+                    "planes": 0
+                },
+                "received_damage": 38751,
+                "received_damage_details": {
+                    "ap": 23312,
+                    "sap": null,
+                    "he": 15090,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 349,
+                    "flooding": null
+                },
+                "fires_dealt": 1,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 2,
+                "distance_traveled": 13.79387598940171,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 29394,
+                "kills": 0
+            },
+            "skill_meta_info": {
+                "skill_points": 14,
+                "num_skills": 5,
+                "highest_tier": 4,
+                "num_tier_1_skills": 1
+            },
+            "time_lived_secs": 237,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 67
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 29
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 38
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 1029.0455647314755,
+            "personal_rating_category": "Below Average"
+        },
+        {
+            "player": {
+                "db_id": 564776822,
+                "realm": "EU",
+                "name": "Rodri_417",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PASD508",
+            "name": "Kidd",
+            "nation": "USA",
+            "class": "Destroyer",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 3762173936,
+                "abilities": [
+                    4284653488,
+                    4279410608,
+                    4283604912,
+                    4278362032,
+                    0,
+                    0
+                ],
+                "hull": 3557568496,
+                "modernization": [
+                    4262645680,
+                    4221751216,
+                    4259499952,
+                    4268937136,
+                    4265791408
+                ],
+                "units": [
+                    3557568496,
+                    3557797872,
+                    3556126704,
+                    3557208048,
+                    3548229616,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4182273968,
+                    4263342000,
+                    4287459248,
+                    4265439152,
+                    4289556400,
+                    4274876336,
+                    4280119216,
+                    4278022064,
+                    4286410672
+                ],
+                "ensigns": [
+                    3420319664,
+                    4036882352
+                ],
+                "ecoboosts": [
+                    4281331632,
+                    0,
+                    4262457264,
+                    4250922928
+                ],
+                "naval_flag": 26,
+                "last_boarded_crew": 58
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Engine Room Protection",
+                        "description": null,
+                        "game_params_name": "PCM069_Movement_Mod_I"
+                    },
+                    {
+                        "name": "Aiming Systems Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM033_Guidance_Mod_I"
+                    },
+                    {
+                        "name": "Propulsion Modification 1",
+                        "description": "Reduces time to full speed",
+                        "game_params_name": "PCM024_Engine_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Smoke Generator",
+                        "game_params_name": "PCY014_SmokeGeneratorPremium"
+                    },
+                    {
+                        "name": "Repair Party",
+                        "game_params_name": "PCY010_RegenCrewPremium"
+                    },
+                    {
+                        "name": "Engine Boost",
+                        "game_params_name": "PCY015_SpeedBoosterPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Consumable Specialist",
+                        "description": "Enhances the efficiency of consumables, except for Damage Control Party and Repair Party.",
+                        "internal_name": "ConsumablesReload"
+                    },
+                    {
+                        "tier": 1,
+                        "name": "Preventive Maintenance",
+                        "description": "Reduces the risk of the main turrets, sonar, torpedo tubes, steering gears, and engine becoming incapacitated.",
+                        "internal_name": "DefenseCritProbability"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Last Stand",
+                        "description": "The ship remains partially able to sustain speed and maneuverability with the engine and steering gears incapacitated.",
+                        "internal_name": "Maneuverability"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Superintendent",
+                        "description": null,
+                        "internal_name": "ConsumablesAdditional"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Survivability Expert",
+                        "description": null,
+                        "internal_name": "DefenseHp"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Fearless Brawler",
+                        "description": null,
+                        "internal_name": "TriggerGmReload"
+                    }
+                ]
+            },
+            "captain_id": "PAW102",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 13623,
+                "damage_details": {
+                    "ap": 12138,
+                    "sap": null,
+                    "he": 1485,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "510617052": {
+                        "damage_dealt": 1485,
+                        "damage_dealt_percentage": 10.900682669015636,
+                        "damage_dealt_inverse_percentage": 3.1428571428571432,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "501028285": {
+                        "damage_dealt": 12138,
+                        "damage_dealt_percentage": 89.09931733098436,
+                        "damage_dealt_inverse_percentage": 11.211483041454223,
+                        "damage_received": 1962,
+                        "damage_received_percentage": 53.990093560814536,
+                        "damage_received_inverse_percentage": 4.102456874019865
+                    },
+                    "500914775": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 1672,
+                        "damage_received_percentage": 46.00990643918547,
+                        "damage_received_inverse_percentage": 3.0037367059499855
+                    }
+                },
+                "hits_details": {
+                    "ap": 43,
+                    "sap": null,
+                    "he": 9,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 14480,
+                "potential_damage": 127800,
+                "potential_damage_details": {
+                    "artillery": 127800,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 3634,
+                "received_damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 1672,
+                    "he_secondaries": 1962,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "fires_dealt": 0,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 35.33261155043961,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 13623,
+                "kills": 0
+            },
+            "skill_meta_info": {
+                "skill_points": 21,
+                "num_skills": 8,
+                "highest_tier": 4,
+                "num_tier_1_skills": 2
+            },
+            "time_lived_secs": null,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_BASE_CAPTURE",
+                    "display_name": "Captured",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 52
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 8
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 31
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 4
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 8
+                }
+            ],
+            "personal_rating": 702.2246729949334,
+            "personal_rating_category": "Bad"
+        },
+        {
+            "player": {
+                "db_id": 603583179,
+                "realm": "EU",
+                "name": "soRe1_ESP",
+                "clan": "AZOR",
+                "clan_color_rgb": 12511165,
+                "division_id": 806950755,
+                "team_id": 1,
+                "is_replay_perspective": false
+            },
+            "index": "PFSD508",
+            "name": "Le Terrible",
+            "nation": "France",
+            "class": "Destroyer",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": false,
+            "raw_config": {
+                "ship_params_id": 3762173776,
+                "abilities": [
+                    4284653488,
+                    4271022000,
+                    4278362032,
+                    0,
+                    0,
+                    0
+                ],
+                "hull": 3544985424,
+                "modernization": [
+                    4262645680,
+                    4221751216,
+                    4287811504,
+                    4268937136,
+                    4265791408
+                ],
+                "units": [
+                    3544985424,
+                    3547311952,
+                    3549835088,
+                    3544624976,
+                    3546132304,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "exteriors": [
+                    4182273968,
+                    4263342000,
+                    4289556400,
+                    4276973488,
+                    4275924912,
+                    4286410672,
+                    4285362096,
+                    4288507824,
+                    4274876336
+                ],
+                "ensigns": [],
+                "ecoboosts": [
+                    4280283056,
+                    0,
+                    4262457264,
+                    4249874352
+                ],
+                "naval_flag": 30,
+                "last_boarded_crew": 15
+            },
+            "translated_build": {
+                "modules": [
+                    {
+                        "name": "Main Armaments Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM030_MainWeapon_Mod_I"
+                    },
+                    {
+                        "name": "Engine Room Protection",
+                        "description": null,
+                        "game_params_name": "PCM069_Movement_Mod_I"
+                    },
+                    {
+                        "name": "Main Battery Modification 2",
+                        "description": null,
+                        "game_params_name": "PCM006_MainGun_Mod_II"
+                    },
+                    {
+                        "name": "Propulsion Modification 1",
+                        "description": "Reduces time to full speed",
+                        "game_params_name": "PCM024_Engine_Mod_II"
+                    },
+                    {
+                        "name": "Concealment System Modification 1",
+                        "description": null,
+                        "game_params_name": "PCM027_ConcealmentMeasures_Mod_I"
+                    }
+                ],
+                "abilities": [
+                    {
+                        "name": "Damage Control Party",
+                        "game_params_name": "PCY009_CrashCrewPremium"
+                    },
+                    {
+                        "name": "Main Battery Reload Booster",
+                        "game_params_name": "PCY022_ArtilleryBoosterPremium"
+                    },
+                    {
+                        "name": "Engine Boost",
+                        "game_params_name": "PCY015_SpeedBoosterPremium"
+                    }
+                ],
+                "captain_skills": [
+                    {
+                        "tier": 1,
+                        "name": "Grease the Gears",
+                        "description": null,
+                        "internal_name": "GmTurn"
+                    },
+                    {
+                        "tier": 1,
+                        "name": "Preventive Maintenance",
+                        "description": "Reduces the risk of the main turrets, sonar, torpedo tubes, steering gears, and engine becoming incapacitated.",
+                        "internal_name": "DefenseCritProbability"
+                    },
+                    {
+                        "tier": 2,
+                        "name": "Last Stand",
+                        "description": "The ship remains partially able to sustain speed and maneuverability with the engine and steering gears incapacitated.",
+                        "internal_name": "Maneuverability"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Main Battery and AA Specialist",
+                        "description": null,
+                        "internal_name": "GmReloadAaDamageConstant"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Adrenaline Rush",
+                        "description": "Enhances ship parameters for each 1% of HP lost.",
+                        "internal_name": "ArmamentReloadAaDamage"
+                    },
+                    {
+                        "tier": 3,
+                        "name": "Survivability Expert",
+                        "description": null,
+                        "internal_name": "DefenseHp"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Concealment Expert",
+                        "description": null,
+                        "internal_name": "DetectionVisibilityRange"
+                    },
+                    {
+                        "tier": 4,
+                        "name": "Fearless Brawler",
+                        "description": null,
+                        "internal_name": "TriggerGmReload"
+                    }
+                ]
+            },
+            "captain_id": "PFW001",
+            "server_results": {
+                "xp": 2500,
+                "raw_xp": 2500,
+                "damage": 11642,
+                "damage_details": {
+                    "ap": 5075,
+                    "sap": null,
+                    "he": 5940,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 627,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "563181754": {
+                        "damage_dealt": 1782,
+                        "damage_dealt_percentage": 15.306648342209241,
+                        "damage_dealt_inverse_percentage": 4.081632653061225,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "535769485": {
+                        "damage_dealt": 2970,
+                        "damage_dealt_percentage": 25.51108057034874,
+                        "damage_dealt_inverse_percentage": 11.975323575662273,
+                        "damage_received": 396,
+                        "damage_received_percentage": 2.969406118776245,
+                        "damage_received_inverse_percentage": 0.9442735531869232
+                    },
+                    "501626561": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 627,
+                        "damage_received_percentage": 4.701559688062387,
+                        "damage_received_inverse_percentage": 2.0034509202453985
+                    },
+                    "501028285": {
+                        "damage_dealt": 6890,
+                        "damage_dealt_percentage": 59.18227108744202,
+                        "damage_dealt_inverse_percentage": 6.364073006724304,
+                        "damage_received": 10067,
+                        "damage_received_percentage": 75.4874025194961,
+                        "damage_received_inverse_percentage": 21.049660219550447
+                    },
+                    "500914775": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 2246,
+                        "damage_received_percentage": 16.841631673665265,
+                        "damage_received_inverse_percentage": 4.034923828686404
+                    }
+                },
+                "hits_details": {
+                    "ap": 16,
+                    "sap": null,
+                    "he": 15,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 19715,
+                "potential_damage": 374401,
+                "potential_damage_details": {
+                    "artillery": 311500,
+                    "torpedoes": 62901,
+                    "planes": 0
+                },
+                "received_damage": 13336,
+                "received_damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 2574,
+                    "he_secondaries": 9344,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 1418,
+                    "flooding": null
+                },
+                "fires_dealt": 1,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 46.96128571000138,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 11433,
+                "kills": 0
+            },
+            "skill_meta_info": {
+                "skill_points": 21,
+                "num_skills": 8,
+                "highest_tier": 4,
+                "num_tier_1_skills": 2
+            },
+            "time_lived_secs": null,
+            "relation": "ally",
+            "division_label": "(A)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 31
+                },
+                {
+                    "name": "RIBBON_BASE_CAPTURE",
+                    "display_name": "Captured",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BASE_CAPTURE_ASSIST",
+                    "display_name": "Assisted in capture",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 21
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 4
+                }
+            ],
+            "personal_rating": 630.3372704475692,
+            "personal_rating_category": "Bad"
+        },
+        {
+            "player": {
+                "db_id": 510617052,
+                "realm": "EU",
+                "name": "BooMHeadShot8",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PRSC208",
+            "name": "Tallinn",
+            "nation": "Russia",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PRW001",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 40097,
+                "damage_details": {
+                    "ap": 35147,
+                    "sap": null,
+                    "he": 4950,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "564776822": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 1485,
+                        "damage_received_percentage": 3.1428571428571432,
+                        "damage_received_inverse_percentage": 10.900682669015636
+                    },
+                    "538386674": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 5239,
+                        "damage_received_percentage": 11.087830687830689,
+                        "damage_received_inverse_percentage": 7.893269853705573
+                    },
+                    "559560115": {
+                        "damage_dealt": 28262,
+                        "damage_dealt_percentage": 70.48407611542011,
+                        "damage_dealt_inverse_percentage": 72.93231142422131,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "508533626": {
+                        "damage_dealt": 11835,
+                        "damage_dealt_percentage": 29.51592388457989,
+                        "damage_dealt_inverse_percentage": 36.489486341493496,
+                        "damage_received": 40526,
+                        "damage_received_percentage": 85.76931216931217,
+                        "damage_received_inverse_percentage": 48.348265947674214
+                    }
+                },
+                "hits_details": {
+                    "ap": 37,
+                    "sap": null,
+                    "he": 7,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 7104,
+                "potential_damage": 446700,
+                "potential_damage_details": {
+                    "artillery": 446700,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 47250,
+                "received_damage_details": {
+                    "ap": 5239,
+                    "sap": null,
+                    "he": 32797,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 9214,
+                    "flooding": null
+                },
+                "fires_dealt": 0,
+                "floods_dealt": 0,
+                "citadels_dealt": 2,
+                "crits_dealt": 1,
+                "distance_traveled": 21.428599533224485,
+                "kills": 1
+            },
+            "observed_results": {
+                "damage": 39618,
+                "kills": 1
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": 314,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 5
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 9
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 26
+                },
+                {
+                    "name": "RIBBON_FRAG",
+                    "display_name": "Destroyed",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_CITADEL",
+                    "display_name": "Citadel hits",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 44
+                }
+            ],
+            "personal_rating": 1831.002027697909,
+            "personal_rating_category": "Great"
+        },
+        {
+            "player": {
+                "db_id": 500914775,
+                "realm": "EU",
+                "name": "Ravageur",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PRSC108",
+            "name": "Chapayev",
+            "nation": "Russia",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PRW001",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 55664,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 33844,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 21820,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "564776822": {
+                        "damage_dealt": 1672,
+                        "damage_dealt_percentage": 3.0037367059499855,
+                        "damage_dealt_inverse_percentage": 46.00990643918547,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "559560115": {
+                        "damage_dealt": 10489,
+                        "damage_dealt_percentage": 18.843417648749643,
+                        "damage_dealt_inverse_percentage": 27.067688575778693,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "603583179": {
+                        "damage_dealt": 2246,
+                        "damage_dealt_percentage": 4.034923828686404,
+                        "damage_dealt_inverse_percentage": 16.841631673665265,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "538386674": {
+                        "damage_dealt": 34388,
+                        "damage_dealt_percentage": 61.777809715435474,
+                        "damage_dealt_inverse_percentage": 44.74050558800952,
+                        "damage_received": 38491,
+                        "damage_received_percentage": 96.01626421871882,
+                        "damage_received_inverse_percentage": 57.99195455983608
+                    },
+                    "508533626": {
+                        "damage_dealt": 6869,
+                        "damage_dealt_percentage": 12.3401121011785,
+                        "damage_dealt_inverse_percentage": 21.17839304433619,
+                        "damage_received": 1597,
+                        "damage_received_percentage": 3.9837357812811813,
+                        "damage_received_inverse_percentage": 1.9052504742248362
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 165,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 0,
+                "potential_damage": 273000,
+                "potential_damage_details": {
+                    "artillery": 273000,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 40088,
+                "received_damage_details": {
+                    "ap": 38491,
+                    "sap": null,
+                    "he": 1597,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "fires_dealt": 10,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 1,
+                "distance_traveled": 25.976524896584447,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 55339,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": null,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 68
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 97
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 165
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 10
+                }
+            ],
+            "personal_rating": 1514.7057398736688,
+            "personal_rating_category": "Good"
+        },
+        {
+            "player": {
+                "db_id": 535769485,
+                "realm": "EU",
+                "name": "Mushu_Little_Dragon",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PJSD108",
+            "name": "Akizuki",
+            "nation": "Japan",
+            "class": "Destroyer",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PJW020",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 41937,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 15621,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": 17449,
+                    "deep_water_torps": null,
+                    "fire": 8747,
+                    "flooding": 120
+                },
+                "damage_interactions": {
+                    "544865726": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 4143,
+                        "damage_received_percentage": 16.704971573726866,
+                        "damage_received_inverse_percentage": 4.923409666187358
+                    },
+                    "603583179": {
+                        "damage_dealt": 396,
+                        "damage_dealt_percentage": 0.9442735531869232,
+                        "damage_dealt_inverse_percentage": 2.969406118776245,
+                        "damage_received": 2970,
+                        "damage_received_percentage": 11.975323575662273,
+                        "damage_received_inverse_percentage": 25.51108057034874
+                    },
+                    "579190179": {
+                        "damage_dealt": 41541,
+                        "damage_dealt_percentage": 99.05572644681307,
+                        "damage_dealt_inverse_percentage": 74.53840770845669,
+                        "damage_received": 17688,
+                        "damage_received_percentage": 71.31970485061086,
+                        "damage_received_inverse_percentage": 34.12958746575078
+                    },
+                    "538386674": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 65,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": 1
+                },
+                "spotting_damage": 0,
+                "potential_damage": 183100,
+                "potential_damage_details": {
+                    "artillery": 183100,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 24801,
+                "received_damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 23908,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 893,
+                    "flooding": null
+                },
+                "fires_dealt": 3,
+                "floods_dealt": 1,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 15.143362870906996,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 41937,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": 230,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 49
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 65
+                },
+                {
+                    "name": "RIBBON_BASE_DEFENSE",
+                    "display_name": "Defended",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_TORPEDO",
+                    "display_name": "Target hits",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 4
+                },
+                {
+                    "name": "RIBBON_FLOOD",
+                    "display_name": "Caused flooding",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 16
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 3
+                }
+            ],
+            "personal_rating": 1457.928779282795,
+            "personal_rating_category": "Good"
+        },
+        {
+            "player": {
+                "db_id": 505699706,
+                "realm": "EU",
+                "name": "forp007",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PASD508",
+            "name": "Kidd",
+            "nation": "USA",
+            "class": "Destroyer",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PAW001",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 27350,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": 15523,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": 11827
+                },
+                "damage_interactions": {
+                    "603583179": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "559560115": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 9776,
+                        "damage_received_percentage": 100.0,
+                        "damage_received_inverse_percentage": 32.27787499587282
+                    },
+                    "508533626": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "564776822": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "538386674": {
+                        "damage_dealt": 27350,
+                        "damage_dealt_percentage": 100.0,
+                        "damage_dealt_inverse_percentage": 35.5837160588595,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": 1
+                },
+                "spotting_damage": 5873,
+                "potential_damage": 219200,
+                "potential_damage_details": {
+                    "artillery": 219200,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 9776,
+                "received_damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 9776,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": null,
+                    "flooding": null
+                },
+                "fires_dealt": 0,
+                "floods_dealt": 1,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 46.419731857124745,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 27351,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": null,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_BASE_CAPTURE",
+                    "display_name": "Captured",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_FLOOD",
+                    "display_name": "Caused flooding",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_TORPEDO",
+                    "display_name": "Target hits",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 1253.8467064489143,
+            "personal_rating_category": "Average"
+        },
+        {
+            "player": {
+                "db_id": 501028285,
+                "realm": "EU",
+                "name": "Hastrel",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PASB518",
+            "name": "Massachusetts",
+            "nation": "USA",
+            "class": "Battleship",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PAW102",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 47825,
+                "damage_details": {
+                    "ap": 28709,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": 14635,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 4481,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "508533626": {
+                        "damage_dealt": 13730,
+                        "damage_dealt_percentage": 28.708834291688447,
+                        "damage_dealt_inverse_percentage": 42.332120614170314,
+                        "damage_received": 41698,
+                        "damage_received_percentage": 38.515111209635705,
+                        "damage_received_inverse_percentage": 49.74648357810095
+                    },
+                    "564776822": {
+                        "damage_dealt": 1962,
+                        "damage_dealt_percentage": 4.102456874019865,
+                        "damage_dealt_inverse_percentage": 53.990093560814536,
+                        "damage_received": 12138,
+                        "damage_received_percentage": 11.211483041454223,
+                        "damage_received_inverse_percentage": 89.09931733098436
+                    },
+                    "579190179": {
+                        "damage_dealt": 6943,
+                        "damage_dealt_percentage": 14.517511761630947,
+                        "damage_dealt_inverse_percentage": 12.458057454558505,
+                        "damage_received": 4384,
+                        "damage_received_percentage": 4.049360821695116,
+                        "damage_received_inverse_percentage": 8.459074595762745
+                    },
+                    "538386674": {
+                        "damage_dealt": 15123,
+                        "damage_dealt_percentage": 31.6215368531103,
+                        "damage_dealt_inverse_percentage": 19.675778353130976,
+                        "damage_received": 22643,
+                        "damage_received_percentage": 20.91461612354984,
+                        "damage_received_inverse_percentage": 34.11477558645835
+                    },
+                    "603583179": {
+                        "damage_dealt": 10067,
+                        "damage_dealt_percentage": 21.049660219550447,
+                        "damage_dealt_inverse_percentage": 75.4874025194961,
+                        "damage_received": 6890,
+                        "damage_received_percentage": 6.364073006724304,
+                        "damage_received_inverse_percentage": 59.18227108744202
+                    },
+                    "559560115": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 20511,
+                        "damage_received_percentage": 18.94535579694081,
+                        "damage_received_inverse_percentage": 67.7221250041272
+                    }
+                },
+                "hits_details": {
+                    "ap": 18,
+                    "sap": null,
+                    "he": null,
+                    "he_secondaries": 98,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 0,
+                "potential_damage": 1043800,
+                "potential_damage_details": {
+                    "artillery": 988600,
+                    "torpedoes": 55200,
+                    "planes": 0
+                },
+                "received_damage": 108264,
+                "received_damage_details": {
+                    "ap": 39735,
+                    "sap": null,
+                    "he": 42327,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 26202,
+                    "flooding": null
+                },
+                "fires_dealt": 5,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 1,
+                "distance_traveled": 23.099569784734623,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 47825,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": 453,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_SECONDARY_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 98
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 5
+                },
+                {
+                    "name": "RIBBON_BASE_CAPTURE_ASSIST",
+                    "display_name": "Assisted in capture",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 6
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 18
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 1026.2284767122774,
+            "personal_rating_category": "Below Average"
+        },
+        {
+            "player": {
+                "db_id": 501626561,
+                "realm": "EU",
+                "name": "suhigaray",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PFSC208",
+            "name": "Cherbourg",
+            "nation": "France",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PFW001",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 31296,
+                "damage_details": {
+                    "ap": 23698,
+                    "sap": null,
+                    "he": 1742,
+                    "he_secondaries": 1568,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 4288,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "603583179": {
+                        "damage_dealt": 627,
+                        "damage_dealt_percentage": 2.0034509202453985,
+                        "damage_dealt_inverse_percentage": 4.701559688062387,
+                        "damage_received": 0,
+                        "damage_received_percentage": 0.0,
+                        "damage_received_inverse_percentage": 0.0
+                    },
+                    "544865726": {
+                        "damage_dealt": 24056,
+                        "damage_dealt_percentage": 76.86605316973414,
+                        "damage_dealt_inverse_percentage": 49.65733630583767,
+                        "damage_received": 43886,
+                        "damage_received_percentage": 64.64947041232709,
+                        "damage_received_inverse_percentage": 52.1527290876897
+                    },
+                    "579190179": {
+                        "damage_dealt": 6613,
+                        "damage_dealt_percentage": 21.13049591002045,
+                        "damage_dealt_inverse_percentage": 11.8659274012668,
+                        "damage_received": 23997,
+                        "damage_received_percentage": 35.35052958767291,
+                        "damage_received_inverse_percentage": 46.303013931231426
+                    }
+                },
+                "hits_details": {
+                    "ap": 34,
+                    "sap": null,
+                    "he": 4,
+                    "he_secondaries": 11,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 3489,
+                "potential_damage": 544365,
+                "potential_damage_details": {
+                    "artillery": 454700,
+                    "torpedoes": 89665,
+                    "planes": 0
+                },
+                "received_damage": 67883,
+                "received_damage_details": {
+                    "ap": 40728,
+                    "sap": null,
+                    "he": 8718,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": 17033,
+                    "deep_water_torps": null,
+                    "fire": 1404,
+                    "flooding": null
+                },
+                "fires_dealt": 3,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 0,
+                "distance_traveled": 30.813151297336447,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 31143,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": 501,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_SECONDARY_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 11
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 8
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_BASE_DEFENSE",
+                    "display_name": "Defended",
+                    "count": 3
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_OVER_PENETRATION",
+                    "display_name": "Over-penetration",
+                    "count": 19
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_RICOCHET",
+                    "display_name": "Ricochet",
+                    "count": 8
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 38
+                }
+            ],
+            "personal_rating": 859.808135887298,
+            "personal_rating_category": "Below Average"
+        },
+        {
+            "player": {
+                "db_id": 563181754,
+                "realm": "EU",
+                "name": "Arkkh4n",
+                "clan": "SURIE",
+                "clan_color_rgb": 14931616,
+                "division_id": 806979221,
+                "team_id": 0,
+                "is_replay_perspective": false
+            },
+            "index": "PSSC108",
+            "name": "Cataluña",
+            "nation": "Spain",
+            "class": "Cruiser",
+            "tier": 8,
+            "is_test_ship": false,
+            "is_enemy": true,
+            "raw_config": null,
+            "translated_build": null,
+            "captain_id": "PSW001",
+            "server_results": {
+                "xp": 250,
+                "raw_xp": 250,
+                "damage": 25022,
+                "damage_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 17671,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 7351,
+                    "flooding": null
+                },
+                "damage_interactions": {
+                    "579190179": {
+                        "damage_dealt": 634,
+                        "damage_dealt_percentage": 2.5337702821517065,
+                        "damage_dealt_inverse_percentage": 1.1376074357180026,
+                        "damage_received": 5757,
+                        "damage_received_percentage": 13.186284614856044,
+                        "damage_received_inverse_percentage": 11.108324007255046
+                    },
+                    "603583179": {
+                        "damage_dealt": 0,
+                        "damage_dealt_percentage": 0.0,
+                        "damage_dealt_inverse_percentage": 0.0,
+                        "damage_received": 1782,
+                        "damage_received_percentage": 4.081632653061225,
+                        "damage_received_inverse_percentage": 15.306648342209241
+                    },
+                    "544865726": {
+                        "damage_dealt": 24388,
+                        "damage_dealt_percentage": 97.4662297178483,
+                        "damage_dealt_inverse_percentage": 50.342663694162326,
+                        "damage_received": 36120,
+                        "damage_received_percentage": 82.73208273208273,
+                        "damage_received_inverse_percentage": 42.92386124612295
+                    }
+                },
+                "hits_details": {
+                    "ap": null,
+                    "sap": null,
+                    "he": 27,
+                    "he_secondaries": 1,
+                    "sap_secondaries": null,
+                    "ap_secondaries_manual": null,
+                    "he_secondaries_manual": null,
+                    "sap_secondaries_manual": null,
+                    "torps": null
+                },
+                "spotting_damage": 578,
+                "potential_damage": 168450,
+                "potential_damage_details": {
+                    "artillery": 168450,
+                    "torpedoes": 0,
+                    "planes": 0
+                },
+                "received_damage": 43659,
+                "received_damage_details": {
+                    "ap": 37902,
+                    "sap": null,
+                    "he": 4214,
+                    "he_secondaries": null,
+                    "sap_secondaries": null,
+                    "torps": null,
+                    "deep_water_torps": null,
+                    "fire": 1543,
+                    "flooding": null
+                },
+                "fires_dealt": 2,
+                "floods_dealt": 0,
+                "citadels_dealt": 0,
+                "crits_dealt": 1,
+                "distance_traveled": 38.095973602384326,
+                "kills": 0
+            },
+            "observed_results": {
+                "damage": 25023,
+                "kills": 0
+            },
+            "skill_meta_info": null,
+            "time_lived_secs": 447,
+            "relation": "enemy",
+            "division_label": "(B)",
+            "achievements": [],
+            "ribbons": [
+                {
+                    "name": "RIBBON_MAIN_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 27
+                },
+                {
+                    "name": "RIBBON_SECONDARY_CALIBER",
+                    "display_name": "Target hits",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_DETECTED",
+                    "display_name": "Spotted",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_CRIT",
+                    "display_name": "Incapacitations",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_PENETRATION",
+                    "display_name": "Penetration",
+                    "count": 25
+                },
+                {
+                    "name": "RIBBON_BURN",
+                    "display_name": "Set on fire",
+                    "count": 2
+                },
+                {
+                    "name": "RIBBON_MAIN_CALIBER_NO_PENETRATION",
+                    "display_name": "Non-penetration",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BULGE",
+                    "display_name": "Torpedo protection hit",
+                    "count": 1
+                },
+                {
+                    "name": "RIBBON_BASE_DEFENSE",
+                    "display_name": "Defended",
+                    "count": 1
+                }
+            ],
+            "personal_rating": 745.7030994601577,
+            "personal_rating_category": "Bad"
+        }
+    ],
+    "metadata": {
+        "map": "Trident",
+        "game_mode": "Clans. Domination",
+        "game_type": "ClanBattle",
+        "match_group": "clan",
+        "version": {
+            "major": 15,
+            "minor": 3,
+            "patch": 0,
+            "build": 12267945
+        },
+        "max_duration": 1200,
+        "played_duration": 489.1524,
+        "extra_duration": 7.9838257,
+        "timestamp": "2026-05-03T18:47:03Z",
+        "battle_result": {
+            "type": "Win",
+            "team_id": 1
+        }
+    },
+    "game_chat": [
+        {
+            "sender_db_id": 579190179,
+            "channel": "Team",
+            "message": "RPF: None"
+        },
+        {
+            "sender_db_id": 579190179,
+            "channel": "Global",
+            "message": "gg"
+        }
+    ]
+}
